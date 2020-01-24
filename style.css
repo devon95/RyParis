@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: sans-serif;
     margin: 0 0;
@@ -9,7 +12,28 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: orange;
+    margin: 0;
+    position: relative;
 }
+/*.sliding-middle-outcast:after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left:50%;*/
+/*    height: 2px;*/
+/*    width: 0;*/
+/*    background-color: transparent;*/
+/*    transition: all .2s;*/
+/*}*/
+/*.sliding-middle-outcast:hover:after {*/
+/*    width: 40%;*/
+/*    left: 30%;*/
+/*    background-color: white;*/
+/*}*/
+.flex {
+     display: flex;
+     flex-flow: row;
+     justify-content: space-evenly;
+ }
 .logo {
     flex-grow: 2;
 }
@@ -21,7 +45,172 @@ ul li a {
 }
 .hero {
     background-image: url("images/hero-image.jpg");
-    height: 899px;
-    width: 1280px;
-    
+    background-size: cover;
+    background-position: center center;
+    padding: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
+.text-box {
+    background-color: white;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    bottom: -150px;
+    width: 500px;
+    height: 55px;
+}
+.nav-pad {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 0;
+}
+/*.everyday {*/
+/*    margin-right: 70px;*/
+/*    margin-left: 70px;*/
+/*}*/
+.flex1 {
+    display: flex;
+    flex-direction: column;
+    /*margin-left: 70px;*/
+    /*margin-right: 70px;*/
+}
+h3 {
+    font-size: 2em;
+}
+p {
+    font-size: 16px;
+}
+.flex3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.img {
+    width: 350px;
+    max-height: 250px;
+}
+.center {
+    text-align: center;
+    font-size: 25px;
+}
+.breakfast {
+    background-image: url("images/breakfast-ideas.jpg");
+    height: 250px;
+    width: 350px;
+    background-position: center center;
+    background-size: cover;
+
+}
+.lunch {
+    background-image: url("images/vegetarian-ideas.jpg");
+    height: 250px;
+    width: 350px;
+    background-position: center center;
+    background-size: cover;
+
+}
+.dinner{
+    background-image: url("images/cold-weather-dinners.jpeg");
+    height: 250px;
+    width: 350px;
+    background-position: center center;
+    background-size: cover;
+}
+.grey-background {
+    background-color: darkgrey;
+}
+.flex4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+
+}
+.fajita {
+    background-image: url("images/fajita-peppers.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+}
+.muffin {
+    background-image: url("images/muffins.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+}
+.eggplant {
+    background-image: url("images/eggplant-parmesan.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+}
+.wings {
+    background-image: url("images/teriyaki-chicken.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+}
+.recipes {
+    background-color: #fffaeb;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+h5 {
+    font-size: 20px;
+    text-align: center;
+}
+h3 {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.sandwich {
+    background-image: url("images/sandwich.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    border: 10px solid darkgrey;
+}
+.pizza {
+    background-image: url("images/pizza.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    border: darkgrey solid 10px;
+}
+.pasta {
+    background-image: url("images/pasta.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    border: 10px darkgrey solid;
+}
+.flex5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.margin {
+    margin: 20px 70px 10px 70px;
+}
+.pad {
+    padding-top: 20px;
+}
+.burger {
+    background-image: url("images/bengal-burger.jpg");
+    background-size: cover;
+    padding: 300px;
+    background-position: center center;
+    /*background-attachment: fixed;*/
+    /*background-repeat: no-repeat;*/
+}
+

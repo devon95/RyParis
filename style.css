@@ -32,7 +32,7 @@ body {
 .flex {
      display: flex;
      flex-flow: row;
-     justify-content: space-evenly;
+     justify-content: center;
  }
 .logo {
     flex-grow: 2;
@@ -46,34 +46,23 @@ ul li a {
 .hero {
     background-image: url("images/hero-image.jpg");
     background-size: cover;
+    padding: 20px 0 700px 0;
     background-position: center center;
-    padding: 200px;
     background-attachment: fixed;
     background-repeat: no-repeat;
-}
-.text-box {
-    background-color: white;
-    font-size: 45px;
-    text-align: center;
     position: relative;
-    bottom: -150px;
-    width: 500px;
-    height: 55px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .nav-pad {
     padding-top: 40px;
     padding-bottom: 40px;
     margin: 0 0;
 }
-/*.everyday {*/
-/*    margin-right: 70px;*/
-/*    margin-left: 70px;*/
-/*}*/
 .flex1 {
     display: flex;
     flex-direction: column;
-    /*margin-left: 70px;*/
-    /*margin-right: 70px;*/
 }
 h3 {
     font-size: 2em;
@@ -206,11 +195,84 @@ h3 {
     padding-top: 20px;
 }
 .burger {
-    background-image: url("images/bengal-burger.jpg");
+    background-image: url("images/burger-background.jpg");
     background-size: cover;
-    padding: 300px;
+    padding: 20px 0 700px 0;
     background-position: center center;
-    /*background-attachment: fixed;*/
-    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
-
+.title {
+    background-color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 80%;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.time {
+    background-color: darkgrey;
+    padding: 20px 70px;
+}
+.level {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    justify-content: left;
+    /*padding: 10px 20px 10px 0;*/
+    margin: 0 20px 0 0;
+}
+span {
+    font-weight: bold;
+}
+.padding {
+    padding: 5px 20px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.align {
+    text-align: center;
+}
+button {
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-size: 15px;
+    background-color: darkred;
+    color: white;
+}
+.print {
+    color: black;
+    font-size: 20px;
+}
+.dry {
+    background-color: #d9d9d9;
+    text-align: center;
+    margin: 20px 70px;
+    padding: 30px;
+    font-weight: bold;
+    color: #999999;
+}
+.margin2 {
+    margin: 20px 70px 20px 70px;
+}
+.list-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.list-style {
+    list-style-type: none;
+}
+#page {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.ingredients {
+    width: 500px;
+}

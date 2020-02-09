@@ -44,12 +44,12 @@ ul li a {
     font-family: Arial;
 }
 .hero {
-    background-image: url("images/hero-image.jpg");
-    background-size: cover;
-    padding: 20px 0 700px 0;
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    /*background-image: url("images/hero-image.jpg");*/
+    /*background-size: cover;*/
+    /*padding: 20px 0 700px 0;*/
+    /*background-position: center center;*/
+    /*background-attachment: fixed;*/
+    /*background-repeat: no-repeat;*/
     position: relative;
     text-align: center;
     display: flex;
@@ -214,6 +214,7 @@ h3 {
     padding: 20px;
     text-transform: uppercase;
     font-weight: bold;
+    z-index: 1;
 }
 .time {
     background-color: darkgrey;
@@ -275,4 +276,14 @@ button {
 }
 .ingredients {
     width: 500px;
+}
+video {
+    position: relative;
+    z-index: -1;
+}
+.left {
+    position: absolute;
+    left: 30px;
+    display: flex;
+    justify-content: center;
 }
